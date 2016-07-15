@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+#aboutus{ padding:90px 0; font-size:14px; line-height:1.7;}
+#aboutus .inner{ margin-top:60px; border:5px solid #ededed; background:url(../../aboutus/images/bg_main.png) no-repeat bottom center; padding:60px;}
+#aboutus .inner .tit{ font-size:24px; color:#008ed3; font-weight:bold; text-align:center; margin-bottom:70px;}
+#aboutus .inner .txt{ margin-bottom:0px;}
+#aboutus .inner .txt_last{ font-size:16px; font-weight:bold; text-align:right}
+#aboutus .inner .txt p{ text-indent:15px;}
+/*===============================
+             MEDIA
+================================*/
+@media only screen and (max-width:960px){
+#aboutus{ padding:9% 0;}
+#aboutus .inner{ padding:6%; background-size:contain }
+#aboutus .inner .tit{ margin-bottom:7%;}
+}
+
+@media only screen and (max-width:640px){
+}
+
+@media only screen and (max-width:480px){
+}
+
+@media only screen and (max-width:360px){
+}
+

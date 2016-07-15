@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+#ticket{ font-size:14px; line-height:1.7; padding-top:90px;}
+#ticket .box{margin-bottom:90px;}
+#ticket .box.last{margin-bottom:20px;}
+#ticket .box table{ width:100%; margin-top:10px;}
+#ticket .box th,#ticket .box td{ border:1px solid #c9c9c9; width:33.33%; padding:32px 0 27px; text-align:center;}
+#ticket .box th{ background:#0072c0; font-weight:bold; border-right: 1px solid #fff; color:#fff;}
+#ticket .box .tbl-blue{ background:#cfe9f7;}
+#ticket .box #end{ border-right: none}
+#ticket .box #end #sec{ display:none}
+#ticket .box table #last{line-height:1.4}
+#ticket .box .font11{ font-size:11px;}
+#ticket .box .caption{ margin-top:20px;}
+#ticket .box .fl{ width:540px}
+#ticket .box .list{width:610px}
+#ticket .box li{ background:url(../../ticket/images/disc.png) no-repeat left; float:left; width:260px; padding-left:15px;}
+#ticket .box li a{text-decoration:underline; color:#2372ff;}
+#ticket .box li a:hover{text-decoration:none;}
+#ticket .box li:nth-child(2){width:auto;}
+#ticket .box .fr #top,#ticket .box .fr #bot{ font-size:18px; color:#0066a3; font-weight:bold;}
+#ticket .box .fr #img{ position:relative}
+#ticket .box .fr img{ width:100%}
+#ticket .box .fr #img_2{ display:none;}
+#ticket .box .fr #top{ position:absolute; top:25px; right:30px;}
+#ticket .box .fr #bot{ position:absolute; bottom:22px; right:26px;}
+#ticket #margin-bot{ margin-bottom:205px}
+
+.banner{margin-bottom:20px;}
+/*===============================
+             MEDIA
+================================*/
+@media only screen and (max-width:960px){
+#ticket{padding-top:9%;}
+#ticket .box{margin-bottom:9%;}
+#ticket .box .fl{ width:55.36%}
+#ticket .box .fr{ width:44.64%;}
+#ticket .box .fr #top{ top:15.06%; left:7%;}
+#ticket .box .fr #bot{ bottom:13.253%; right:6.19%;}
+#ticket .box .fr #img{ display:none}
+#ticket .box .fr #img_2{ display:block}
+
+/*add 2016-05-05*/
+.banner{ width: 32.39583333333333%}
+}
+
+@media only screen and (max-width:640px){
+
+#ticket .box .fr #top,#ticket .box .fr #bot{ font-size:16px;}
+#ticket .box .fr #img_2{ display:none}
+#ticket .box .fr #img{ display:block}
+#ticket .box .fl,#ticket .box .fr{ float:none; width:80%; margin:auto;}
+#ticket .box .fr{ margin-top:20px;}
+#ticket .box .list{width:100%;}
+#ticket .box li{width:auto; float:none;}
+
+/*add 2016-05-05*/
+.banner{ width: 64.79166666666667%}
+}
+
+@media only screen and (max-width:480px){
+#ticket{padding-top:30px;}
+#ticket .box{margin-bottom:30px;}	
+#ticket .box .fr #img{ display:none}
+#ticket .box .fr #img_2{ display:block}
+#ticket .box #end #sec{ display:block}
+#ticket .box #end #fi{ display:none}
+#ticket .box .col-left{ padding:0 1%}
+}
+
+@media only screen and (max-width:360px){
+#ticket .box .fl,#ticket .box .fr{ width:100%}
+}
+

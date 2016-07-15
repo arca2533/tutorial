@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+#outline{ font-size:14px; line-height:1.7; padding-top:90px;}
+#outline .box{ margin-bottom:90px;}
+#outline .box table{ width:100%}
+#outline .box th, #outline .box td{ border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:32px 0 27px;}
+#outline .box th{ font-weight:bold; width:206px; text-align:center; border-right:1px solid #ccc;}
+#outline .box td{ padding-left:75px;}
+#outline .box td a{ color:#2372ff; text-decoration:underline;}
+#outline .box td a:hover{ text-decoration:none;}
+#outline .box .wid p{ width:550px;}
+#outline .box .th-wid p{ width:130px; margin:0 auto}
+#outline .box #tbl_logo p{ padding-right: 32px; float:left;}
+#outline .box .mabo{ margin-bottom:35px;}
+#outline .box .fl,#outline .box .fr{ margin-top:45px;}
+#outline .box .fr img,#outline .box #tbl_logo img{ width:100%}
+#outline #margin-bot{ margin-bottom:128px}
+/*===============================
+             MEDIA
+================================*/
+@media only screen and (max-width:960px){
+#outline{padding-top:9%;}
+#outline .box{ margin-bottom:9%;}
+#outline .box td{ padding-left:7.5%;}
+}
+@media only screen and (max-width:850px){
+#outline .box .wid p{ width:100%}
+#outline .box .fr{ width:38.33%}	
+#outline .box .fl{ width:55.52%}
+#outline .box #tbl_logo p{ padding-right:2%;}
+}
+@media only screen and (max-width:736px){
+#outline .box #tbl_logo p{ padding-right:4%; padding-bottom:4%}
+}
+
+@media only screen and (max-width:600px){
+#outline .box .fl,#outline .box .fr{ float:none; width:97%; margin:0 auto;}
+#outline .box .fr{ width:60%}
+
+#outline .box th,#outline .box td{width:95%;display:block; text-align:center; margin:0 3% 0 2%;  padding:10px 0;}
+#outline .box th{ border:none; border-top:1px solid #ccc;background-color: #51c5d4;}
+#outline .box td{ padding-left:0; border-bottom:none; text-align:left; padding:10px; }
+#outline .box table{border-left:1px solid #ccc;border-right:1px solid #ccc;}
+#outline .box td,#outline .box th{ margin:0; width:auto;}
+#outline .box #last{ border-bottom:1px solid #ccc;}
+#outline .box #tbl_logo p{ margin:0 auto; float:left}
+#outline .box #tbl_logo img{ width:auto}
+}
+
+
+@media only screen and (max-width:480px){
+#outline{padding-top:30px;}
+#outline .box{ margin-bottom:30px;}	
+#outline .box .mabo{ margin-bottom:4%}
+}
+
+@media only screen and (max-width:360px){
+#outline .box .fr{ width:80%}
+#outline .box #tbl_logo p { float:none; text-align:center}
+}
+
