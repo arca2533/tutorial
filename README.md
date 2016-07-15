@@ -1,4 +1,31 @@
 # tutorial
+
+## Purpose of this Tutorial
+- Learn how to use Git
+- Learn merit of Git
+- Learn what Git can do
+	- Record changing work history
+	- Easy to make not all html
+	- Merge only your changed files to master branch
+
+## Assumed Situation
+- All member Join this project and modify at same time.
+- Sawada is director role.
+
+## Flow
+1. Clone sorce code from Github
+2. Make branch before you change(in this case, branch name is your name)
+3. Work on your issue
+	- issue is [here](https://github.com/arca2533/tutorial/issues)
+	- When you resolved one issue, please commit with issue number
+	- For example, commit is like this ```#1 Add title```
+4. When you have done all your issue, push to Github
+5. Comment to issue to tell me your task is done
+6. Pull request to master blanch
+7. Sawada will check and change issue status to resolved if OK
+8. When all your task is done, Sawada will accept your pull request
+9. Then your changing merges to master branch
+
 ## Build Local Git
 ### Install and Build Source Tree
 Download Source Tree from [here](https://www.sourcetreeapp.com/)
@@ -7,8 +34,8 @@ If you wanna Japanese version, you can download from [here](https://ja.atlassian
 ### Easy to Make Diff(Not all HTML)
 #### 1. Make patch file.
 
-```export_diff_zip.bat
-EQU "" (
+##### export\_diff\_zip.bat
+```EQU "" (
   set PARAM1=HEAD
   set PARAM2=%1
 ) else (
