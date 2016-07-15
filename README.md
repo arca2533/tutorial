@@ -35,7 +35,8 @@ If you wanna Japanese version, you can download from [here](https://ja.atlassian
 #### 1. Make patch file.
 
 ##### export\_diff\_zip.bat
-```EQU "" (
+```
+EQU "" (
   set PARAM1=HEAD
   set PARAM2=%1
 ) else (
