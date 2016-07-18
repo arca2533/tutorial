@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* COMMON CSS Document */
+.content{margin:0 auto; width:960px;}
+
+/*HEADER
+====================================*/
+#header{}
+
+/*NAVIGATION
+====================================*/
+#gnav{}
+
+/*MAIN CONTENT
+====================================*/
+
+/*FOOTER
+===================================*/
+#footer
+
+/*===============================
+             MEDIA
+================================*/
+@media only screen and (max-width:960px){
+
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:480px){
+
+}
+
+@media only screen and (max-width:360px){
+
+}
