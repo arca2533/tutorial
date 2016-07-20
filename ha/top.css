@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+.content1500{margin:0 auto; width:1500px; max-width:100%;}
+.hoverImg:hover{ opacity:.8}
+
+#wrapper{ position:relative;}
+#header{ position:absolute; top:40px; left:0; width:100%; border:0; padding:0; z-index:999;}
+#header .logo{ padding-left:3%;}
+#container .content1500{ position:relative}
+#container .main_txt{ position:absolute; top:25%; right:5%;}
+#container .main_btn{ position:absolute; bottom:60px; left:0;}
+#container .main_btn li{ float:left; margin-right:3px; width:33.2%;}
+#container .main_btn li.last{ margin-right:0;}
+#footer{ position:absolute; bottom:10px; width:100%; left:0; text-align:center; font-size:8px; color:#fff;}
+.bx-wrapper .bx-pager, .bx-prev, .bx-next{ display:none;}
+.bx-wrapper{ margin:0 !important}
+/*===============================
+             MEDIA
+================================*/
+@media only screen and (max-width:1500px){
+.content1500{ width:100%}	
+#container .main_btn li img{ width:100%;}
+#container .main_btn li{ margin-right:0.1%}
+}
