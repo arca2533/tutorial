@@ -36,7 +36,7 @@ If you wanna Japanese version, you can download from [here](https://ja.atlassian
 
 ##### export\_diff\_zip.bat
 ```
-EQU "" (
+if "%2" EQU "" (
   set PARAM1=HEAD
   set PARAM2=%1
 ) else (
@@ -50,8 +50,11 @@ for /F "usebackq" %%i in (`git diff --name-only %PARAM1% %PARAM2%`) do (
   set RET_DIR=!RET_DIR! "%%i"
 )
  
-git archive --format=zip --prefix=archive/ %PARAM1% %RET_DIR% -o ../not_all_data.zip
+git archive --format=zip --prefix=archive/ %PARAM1% %RET_DIR% -o ../not_all_data
 ```
+
+If error occured, please install Git from [here](https://git-scm.com/).
+And please restart.
 
 #### 2. Setting at Source Tree
 Menu => Tool => Option => Custom Action => Add
