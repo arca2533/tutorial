@@ -50,7 +50,7 @@ for /F "usebackq" %%i in (`git diff --name-only %PARAM1% %PARAM2%`) do (
   set RET_DIR=!RET_DIR! "%%i"
 )
  
-git archive --format=zip --prefix=archive/ %PARAM1% %RET_DIR% -o ../not_all_data
+git archive --format=zip --prefix=archive/ %PARAM1% %RET_DIR% -o ../not_all_data.zip
 ```
 
 If error occured, please install Git from [here](https://git-scm.com/).
