@@ -54,6 +54,14 @@ git archive --format=zip --prefix=archive/ %PARAM1% %RET_DIR% -o ../not_all_data
 ```
 
 If error occured, please install Git from [here](https://git-scm.com/).
+
+After downloading, please set git config via cmd or comand prompt.
+
+```bash
+$ git config --global user.name "Your Name"
+$ git config --global user.email yourname@email.com
+```
+
 And please restart.
 
 #### 2. Setting at Source Tree
